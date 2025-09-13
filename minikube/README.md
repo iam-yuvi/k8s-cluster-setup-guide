@@ -14,7 +14,7 @@ This guide explains how to install and configure Minikube, Docker, and kubectl t
 
 ## 2. Install Dependencies
 
-### Install Docker
+Install Docker
 ```bash
 sudo apt-get update -y
 sudo apt-get install -y docker.io
@@ -31,7 +31,7 @@ Verify Docker:
 docker ps
 ```
 
-##3. Install Minikube
+## 3. Install Minikube
 ```bash
 curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
@@ -43,7 +43,7 @@ Verify Minikube:
 minikube version
 ```
 
-##4. Install kubectl
+## 4. Install kubectl
 
 Download latest stable kubectl binary:
 
@@ -58,7 +58,7 @@ Verify kubectl:
 kubectl version --client
 ```
 
-##5. Start Minikube
+## 5. Start Minikube
 
 Start a Kubernetes cluster using Docker driver:
 
@@ -70,7 +70,7 @@ minikube start --driver=docker
 ```bash
 minikube start --driver=docker --memory=2048mb --cpus=2
 ```
-##6. Verify Cluster
+## 6. Verify Cluster
 
 Check cluster status:
 ```bash
@@ -86,7 +86,7 @@ Check nodes:
 ```bash
 kubectl get nodes
 ```
-##7. Cleanup & Reset
+## 7. Cleanup & Reset
 
 Stop cluster:
 ```bash
