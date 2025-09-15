@@ -88,3 +88,10 @@ Created a single-node Kubernetes cluster
 Verified the cluster with kubectl
 
 (Optional) Deployed a test Nginx app
+
+
+References:
+
+kind -> https://kind.sigs.k8s.io/
+
+kubernetes -> https://kubernetes.io/docs/
