@@ -90,7 +90,7 @@ Verified the cluster with kubectl
 (Optional) Deployed a test Nginx app
 
 
-References:
+## References:
 
 kind -> https://kind.sigs.k8s.io/
 
