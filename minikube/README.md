@@ -63,7 +63,7 @@ kubectl version --client
 Start a Kubernetes cluster using Docker driver:
 
 ```bash
-minikube start --driver=docker
+minikube start 
 ```
 
 ⚠️ If system has < 4GB RAM, allocate less memory:
